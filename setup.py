@@ -2,8 +2,8 @@ from setuptools import setup
 
 setup(
     name='dsss_homework_2',
-    version='1.0',
-    packages=['random', 'unittest'],
+    version='',
+    packages=[''],
     url='',
     license='',
     author='Paul Zwiessele',
