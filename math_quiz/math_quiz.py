@@ -85,7 +85,7 @@ def math_quiz() -> None:
 
     for counter in range(num_questions):
         number_1 = get_random_int(min_val=1, max_val=10)
-        number_2 = get_random_int(min_val=1, max_val=5.5)
+        number_2 = get_random_int(min_val=1, max_val=5)  # random.randint takes only integer values
         operator = get_random_operator()
 
         question, answer = calculate_operation(number_1=number_1, number_2=number_2, operator=operator)
